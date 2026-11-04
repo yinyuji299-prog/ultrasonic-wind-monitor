@@ -1,0 +1,14 @@
+# 编译产物
+*.o
+*.elf
+*.hex
+*.dump
+
+# Efinity 中间文件
+*.db
+*.log
+work_*
+
+# 系统文件
+Thumbs.db
+desktop.ini

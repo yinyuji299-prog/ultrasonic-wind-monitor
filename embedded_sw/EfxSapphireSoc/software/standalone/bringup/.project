@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>bringup</name>
+	<comment>VF-T20F256 Sapphire RV32 bring-up: UART ALIVE + LED[3:0] + APB xcorr. Open src/main.c and build/bringup.asm to see every instruction.</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>bsp_include</name>
+			<type>2</type>
+			<location>D:/efinity_project/sapphire_soc_xcorr_bak/embedded_sw/EfxSapphireSoc/bsp/efinix/EfxSapphireSoc/include</location>
+		</link>
+		<link>
+			<name>driver</name>
+			<type>2</type>
+			<location>D:/efinity_project/sapphire_soc_xcorr_bak/embedded_sw/EfxSapphireSoc/software/standalone/driver</location>
+		</link>
+		<link>
+			<name>start.S</name>
+			<type>1</type>
+			<location>D:/efinity_project/sapphire_soc_xcorr_bak/embedded_sw/EfxSapphireSoc/software/standalone/common/start.S</location>
+		</link>
+		<link>
+			<name>core_netlist.v</name>
+			<type>1</type>
+			<location>D:/efinity_project/sapphire_soc_xcorr_bak/src/EfxSapphireSoc.v</location>
+		</link>
+	</linkedResources>
+</projectDescription>

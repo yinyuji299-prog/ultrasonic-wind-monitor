@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+useProjectSettings=true
+org.eclipse.cdt.codan.internal.checkers.TypeResolutionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.FieldResolutionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.FunctionResolutionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.MethodResolutionProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.AmbiguousProblem=Warning
+org.eclipse.cdt.codan.internal.checkers.InvalidArguments=Warning
+org.eclipse.cdt.codan.internal.checkers.MemberDeclarationNotFound=Warning
+org.eclipse.cdt.codan.internal.checkers.ProblemBindingChecker=Warning

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+indexer/indexAllFiles=true
+indexer/indexExternalFiles=true
+indexer/indexUnusedHeaders=true
+indexer/skipReferencesToEncapsulatedBindings=false
+indexer/useActiveBuildConfiguration=true
